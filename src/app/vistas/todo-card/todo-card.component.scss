@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.container .card{
+    width: 350px;
+ 
+    border-radius: 8px;
+    
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 0.8em;
+}
+.card-text{
+    padding: 1em;
+    
+}
+.h4{
+    font-weight: bold;
+}
+.btn{
+    color: white;
+    background-color: black;
+    margin-top: 1em;
+    
+}
