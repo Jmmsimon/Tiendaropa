@@ -5,8 +5,14 @@
 }
 .card{
     background-color: red;
-    padding: 10em ;
+ 
 }
 .form-control{
     margin-bottom: 1em;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
