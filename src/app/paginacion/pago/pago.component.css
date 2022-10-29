@@ -1,0 +1,12 @@
+.texto{
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    
+}
+.card{
+    background-color: red;
+    padding: 10em ;
+}
+.form-control{
+    margin-bottom: 1em;
+}
