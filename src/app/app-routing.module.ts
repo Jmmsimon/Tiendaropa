@@ -6,6 +6,7 @@ import {CanActivateTeam} from "./config/AuthInterceptor";
 import { CompraproductoComponent } from "./paginacion/compraproducto/compraproducto.component";
 import { MiscomprasComponent } from "./paginacion/miscompras/miscompras.component";
 import { ProductoComponent } from "./paginacion/producto/producto.component";
+import { PagoComponent } from './paginacion/pago/pago.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'miscompras', component: MiscomprasComponent},
   {path: 'producto', component: ProductoComponent},
   {path: 'compraproducto', component: CompraproductoComponent},
+  {path: 'pago', component: PagoComponent},
   // { path: '', component: TodoCardComponent, canActivate: [CanActivateTeam]},
 
  

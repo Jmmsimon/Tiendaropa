@@ -15,7 +15,6 @@ import { ProductoComponent } from './paginacion/producto/producto.component';
 import { PagoComponent } from './paginacion/pago/pago.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
