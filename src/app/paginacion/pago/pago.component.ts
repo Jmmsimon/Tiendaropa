@@ -13,3 +13,4 @@ export class PagoComponent implements OnInit {
   }
 
 }
+
