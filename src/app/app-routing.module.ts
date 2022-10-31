@@ -7,6 +7,7 @@ import { CompraproductoComponent } from "./paginacion/compraproducto/compraprodu
 import { MiscomprasComponent } from "./paginacion/miscompras/miscompras.component";
 import { ProductoComponent } from "./paginacion/producto/producto.component";
 import { PagoComponent } from './paginacion/pago/pago.component';
+import { CarritocomprasComponent } from './paginacion/carritocompras/carritocompras.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'producto', component: ProductoComponent},
   {path: 'compraproducto', component: CompraproductoComponent},
   {path: 'pago', component: PagoComponent},
+  {path: 'carritocompras', component: CarritocomprasComponent}
   // { path: '', component: TodoCardComponent, canActivate: [CanActivateTeam]},
 
  

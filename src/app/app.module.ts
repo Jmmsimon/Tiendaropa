@@ -13,6 +13,8 @@ import {MatInputModule} from "@angular/material/input";
 import { CompraproductoComponent } from './paginacion/compraproducto/compraproducto.component';
 import { ProductoComponent } from './paginacion/producto/producto.component';
 import { PagoComponent } from './paginacion/pago/pago.component';
+import { CarritocomprasComponent } from './paginacion/carritocompras/carritocompras.component';
+import { NavegadorComponent } from './componentes/navegador/navegador.component';
 
 
 @NgModule({
@@ -24,6 +26,9 @@ import { PagoComponent } from './paginacion/pago/pago.component';
     CompraproductoComponent,
     ProductoComponent,
     PagoComponent,
+    CarritocomprasComponent,
+    NavegadorComponent
+    
 
 
   ],
