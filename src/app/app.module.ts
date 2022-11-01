@@ -15,6 +15,11 @@ import { ProductoComponent } from './paginacion/producto/producto.component';
 import { PagoComponent } from './paginacion/pago/pago.component';
 import { CarritocomprasComponent } from './paginacion/carritocompras/carritocompras.component';
 import { NavegadorComponent } from './componentes/navegador/navegador.component';
+import { MicuentaComponent } from './paginacion/micuenta/micuenta.component';
+import { RegistroComponent } from './vistas/registro/registro.component';
+import { RopahombreComponent } from './categorias/ropahombre/ropahombre.component';
+import { RopamujerComponent } from './categorias/ropamujer/ropamujer.component';
+import { RopaninosComponent } from './categorias/ropaninos/ropaninos.component';
 
 
 @NgModule({
@@ -27,7 +32,12 @@ import { NavegadorComponent } from './componentes/navegador/navegador.component'
     ProductoComponent,
     PagoComponent,
     CarritocomprasComponent,
-    NavegadorComponent
+    NavegadorComponent,
+    MicuentaComponent,
+    RegistroComponent,
+    RopahombreComponent,
+    RopamujerComponent,
+    RopaninosComponent
     
 
 

@@ -7,7 +7,7 @@
           <button style="margin-right: 5em; color: white; font-size: large;" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Bienvenido {{ user?.name }} </button>
           <div class="dropdown-menu dropdown-menu-right" >
-            <button class="dropdown-item" type="button">Mi cuenta</button>
+            <button  routerLink="micuenta"  class="dropdown-item" type="button">Mi cuenta</button>
             <button class="dropdown-item" type="button"><a (click) = "logout()" class="hover:underline cursor-pointer">Cerrar Sesión</a></button>
           
           </div>
@@ -27,8 +27,12 @@
         <a class="nav-link" href="#" routerLink="login" style="color: white; font-size: large;">Iniciar Sesión</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#" routerLink="registro" style="color: white; font-size: large;">Registro</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#" routerLink="miscompras" style="color: white; font-size: large;">Mis compras</a>
       </li>
+     
       <li class="nav-item">
         <a class="nav-link" href="#" routerLink="carritocompras" style="color: white; font-size: large;"><i class="fas fa-shopping-cart"></i> </a>
   

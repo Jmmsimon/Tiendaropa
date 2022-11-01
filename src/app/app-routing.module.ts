@@ -8,6 +8,11 @@ import { MiscomprasComponent } from "./paginacion/miscompras/miscompras.componen
 import { ProductoComponent } from "./paginacion/producto/producto.component";
 import { PagoComponent } from './paginacion/pago/pago.component';
 import { CarritocomprasComponent } from './paginacion/carritocompras/carritocompras.component';
+import { MicuentaComponent } from './paginacion/micuenta/micuenta.component';
+import { RegistroComponent } from './vistas/registro/registro.component';
+import { RopahombreComponent } from './categorias/ropahombre/ropahombre.component';
+import { RopamujerComponent } from './categorias/ropamujer/ropamujer.component';
+import { RopaninosComponent } from './categorias/ropaninos/ropaninos.component';
 
 
 const routes: Routes = [
@@ -18,8 +23,18 @@ const routes: Routes = [
   {path: 'producto', component: ProductoComponent},
   {path: 'compraproducto', component: CompraproductoComponent},
   {path: 'pago', component: PagoComponent},
-  {path: 'carritocompras', component: CarritocomprasComponent}
+  {path: 'carritocompras', component: CarritocomprasComponent},
+  {path: 'micuenta', component: MicuentaComponent},
+  {path: 'registro', component: RegistroComponent},
+  {path: 'ropahombre', component: RopahombreComponent},
+  {path: 'ropamujer', component: RopamujerComponent},
+  {path: 'ropanino', component: RopaninosComponent}
+
+
+
+
   // { path: '', component: TodoCardComponent, canActivate: [CanActivateTeam]},
+
 
  
 
