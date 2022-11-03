@@ -13,6 +13,10 @@ import { RegistroComponent } from './vistas/registro/registro.component';
 import { RopahombreComponent } from './categorias/ropahombre/ropahombre.component';
 import { RopamujerComponent } from './categorias/ropamujer/ropamujer.component';
 import { RopaninosComponent } from './categorias/ropaninos/ropaninos.component';
+import { InicioComponent } from './admin/inicio/inicio.component';
+import { GestionproductoComponent } from './admin/gestionproducto/gestionproducto.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
+import { ReportesComponent } from './admin/reportes/reportes.component';
 
 
 const routes: Routes = [
@@ -28,7 +32,11 @@ const routes: Routes = [
   {path: 'registro', component: RegistroComponent},
   {path: 'ropahombre', component: RopahombreComponent},
   {path: 'ropamujer', component: RopamujerComponent},
-  {path: 'ropanino', component: RopaninosComponent}
+  {path: 'ropanino', component: RopaninosComponent},
+  {path: 'admin', component: InicioComponent},
+  {path: 'gestionproducto', component: GestionproductoComponent},
+  {path: 'dashboard', component: DashboardComponent},
+  {path: 'reportes', component: ReportesComponent},
 
 
 

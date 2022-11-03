@@ -19,7 +19,11 @@ import { MicuentaComponent } from './paginacion/micuenta/micuenta.component';
 import { RegistroComponent } from './vistas/registro/registro.component';
 import { RopahombreComponent } from './categorias/ropahombre/ropahombre.component';
 import { RopamujerComponent } from './categorias/ropamujer/ropamujer.component';
-import { RopaninosComponent } from './categorias/ropaninos/ropaninos.component';
+import { RopaninosComponent} from './categorias/ropaninos/ropaninos.component';
+import { InicioComponent } from './admin/inicio/inicio.component';
+import { GestionproductoComponent } from './admin/gestionproducto/gestionproducto.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
+import { ReportesComponent } from './admin/reportes/reportes.component'
 
 
 @NgModule({
@@ -37,7 +41,12 @@ import { RopaninosComponent } from './categorias/ropaninos/ropaninos.component';
     RegistroComponent,
     RopahombreComponent,
     RopamujerComponent,
-    RopaninosComponent
+    RopaninosComponent,
+    InicioComponent,
+    GestionproductoComponent,
+    DashboardComponent,
+    ReportesComponent,
+   
     
 
 
