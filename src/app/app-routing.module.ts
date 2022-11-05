@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {LoginComponent} from "./vistas/login/login.component";
 import {TodoCardComponent} from "./vistas/todo-card/todo-card.component";
@@ -17,7 +17,7 @@ import { InicioComponent } from './admin/inicio/inicio.component';
 import { GestionproductoComponent } from './admin/gestionproducto/gestionproducto.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ReportesComponent } from './admin/reportes/reportes.component';
-
+import { PersonalizarComponent } from './componentes/personalizar/personalizar.component';
 
 const routes: Routes = [
   { path: '', component: TodoCardComponent },
@@ -37,7 +37,7 @@ const routes: Routes = [
   {path: 'gestionproducto', component: GestionproductoComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'reportes', component: ReportesComponent},
-
+  {path: 'personalizar', component: PersonalizarComponent}
 
 
 
