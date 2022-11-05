@@ -1,1 +1,36 @@
-<p>registro works!</p>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><strong>Registro</strong></li>
+   </ol>
+</nav>
+<div class="container">
+
+  <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col max-w-lg m-auto">
+      <div>
+          <div class="flex flex-col">
+
+              <h1 class="text-center" style="margin-bottom: 2em; font-size: 25px; font-weight: bold;" >Registrarse</h1>
+                <input type="text" name="Nombre y Apellidos" placeholder= "Nombre y Apellidos" size="90" required />   
+                <input type="email" name="Correo Electrónico" placeholder="Correo Electrónico" size="50" required />   
+                <input type="text" name="Contraseña" placeholder="Contraseña" size="15"required />     
+          </div>
+        </div>
+        
+      <div class="flex items-center justify-between">
+              <a class="inline-block align-baseline font-bold text-sm text-red-500 hover:text-red-darker">
+                ¿Olvidaste tu contraseña?
+              </a>
+        </div>
+        <br>
+        <div>
+            <button type="submit" class="registerbtn">Registro</button>    
+        </div>
+
+        <br>
+        
+        <p>¿Ya tienes una cuenta? <a class="link" href="login"><b>Iniciar Sesión</b></a></p> 
+    </div>
+</div>
+
+
