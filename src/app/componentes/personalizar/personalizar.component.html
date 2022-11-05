@@ -1,23 +1,129 @@
-<div class="container margin-top 5%">
-    <div class="row justify-content-center">
-        <div class="col-8">
-            <div class="card text-center">
-                <div class="card-header margin-top 5%">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">PERSONALIZA TU PRENDA</h5>
-                    <p class="card-text">Aquí puedes subir una foto, frase, dibujo que quieras estampar en tu polo</p>
-                    <div class="input-group justify-content-center">
-                        <label class="input-group-btn">
-                            <span class="btn btn-primary">
-                                Subir <input accept=".jpg,.png,.jpeg,.gif" class="hidden" name="subirima" type="file"
-                                    id="banner">
-                            </span>
-                        </label>
+<div class="container">
 
+    <div class="row justify-content-center">
+        <div style="padding: 10px; justify-content: center;" class="row mt-10">
+
+            <div class="col-10">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="card-body ">
+                        <h5 class="texto card-title text-center">PERSONALIZA TU PRENDA</h5>
+                        <div style="padding: 10px; justify-content: center;" class="row mt-10">
+                            <div class="col-md-5">
+                                <img class="content" src="./assets/polo.jpg" alt="imagen"
+                                    style="height: 70%; width: 60%;" />
+                                <div class="input-group">
+                                    <label class="input-group-btn">
+                                        <span class="subir btn btn-primary">
+                                            Subir <input accept=".jpg,.png,.jpeg,.gif" class="hidden" name="subirima"
+                                                type="file" id="subirima">
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div style="text-align: center" class="col-md-4 ">
+
+                                <p style="font-size: 25px;"><strong>Elegir color de polo</strong></p>
+                                <input type="color">
+
+                                <p style="font-size: 25px;"><strong>Elegir Talla</strong></p>
+                                <select name="selectpolo">
+                                    <option value="value1">Seleccionar</option>
+                                    <option value="value2">S</option>
+                                    <option value="value3">M</option>
+                                    <option value="value4">L</option>
+                                    <option value="value5">XL</option>
+
+                                </select>
+                                <p style="font-size: 25px;"><strong>TIPO DE ENTREGA</strong></p>
+                                <select name="selectpolo">
+                                    <option value="value1">Seleccionar</option>
+                                    <option value="value2">Recojo en tienda</option>
+                                    <option value="value3">Envío a Domicilio</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                        <div class ="row d-flex justify-content-center ">
+                            <button>
+                                <a href="carritocompras" class="btn btn-secondary "
+                                 style="border-radius: 1em; margin-top: 1em; ">Enviar Producto</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
+               
             </div>
         </div>
     </div>
 </div>
+
+   
+
+<!---<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="card-body ">
+                      <div id="Checkout" class="inline">
+                        <h1 class="text-center" style="font-size: 20px;">Completar Informacion de Pago</h1>
+                        <div class="card-row">
+                            <span class="visa"></span>
+                            <span class="mastercard"></span>
+                            <span class="amex"></span>
+                            <span class="discover"></span>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <p>TOTAL: <br> S/ 250.00</p>
+                            </div>
+                            <div class="form-group">
+                                <input id="NameOnCard" class="form-control" placeholder="Ingrese número de tarjeta" type="text" maxlength="16">
+                            </div>
+                            <div class="form-group">
+                              <input id="NameOnCard" class="form-control" placeholder="MM / YY" type="text" maxlength="4">
+                            </div>
+                            <div class="form-group">
+                              <input id="NameOnCard" class="form-control" placeholder="Código de Seguridad" type="text" maxlength="3">
+                            </div>
+                            <div class="custom-control custom-checkbox" style="padding-top: 2.5em">
+                              <input type="checkbox" class="custom-control-input" id="customCheck1" >
+                              <label class="custom-control-label" for="customCheck1">
+                                <p> Recordar tarjeta</p>
+                              </label>
+                            </div>
+                        </form>
+                        <button>
+                            <a class="btn btn-secondary " data-toggle="modal" data-target="#exampleModalCenter1"
+                            style="border-radius: 1em; margin-top: 1em; ">Realizar Pedido</a>
+                        </button>
+                  </div>
+
+           
+        </div>
+    </div>
+</div>
+
+
+
+
+ <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <ul class="timeline">
+                    <li class="active-tl">Pedido Recibido</li>
+                    <li disabled>Pedido Listo</li>
+                    <li>Recojo En Tienda</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="gestionproducto" class="btn btn-success d-flex justify-content-center"
+                    style="border-radius: 1em; margin-top: 1em; "></a>
+            </div>
+        </div>
+    </div>
+</div>
+-->
