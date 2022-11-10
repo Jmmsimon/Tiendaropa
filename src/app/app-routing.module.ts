@@ -18,6 +18,8 @@ import { GestionproductoComponent } from './admin/gestionproducto/gestionproduct
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ReportesComponent } from './admin/reportes/reportes.component';
 import { PersonalizarComponent } from './componentes/personalizar/personalizar.component';
+import { ClientesComponent } from './admin/clientes/clientes.component';
+import { EnviosComponent } from './admin/envios/envios.component';
 
 const routes: Routes = [
   { path: '', component: TodoCardComponent },
@@ -37,7 +39,9 @@ const routes: Routes = [
   {path: 'gestionproducto', component: GestionproductoComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'reportes', component: ReportesComponent},
-  {path: 'personalizar', component: PersonalizarComponent}
+  {path: 'personalizar', component: PersonalizarComponent},
+  {path: 'clientes', component: ClientesComponent},
+  {path: 'envios', component: EnviosComponent},
 
 
 

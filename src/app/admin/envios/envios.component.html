@@ -1,0 +1,143 @@
+<div class="container pt-12">
+    <div class="row d-flex justify-content-center pb-5" style="margin-left: 73%">
+      <button  >
+        <a href="admin" class="btn btn-secondary " style="border-radius: 1em; margin-top: 1em; margin-left: 7em;">Regresar a Inicio</a>
+      </button>
+      
+    </div>
+    <div class="row justify-content-center">
+      
+      <div class="col-11 ">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Cliente</th>
+              <th scope="col">Productos</th>
+              <th scope="col">Fecha</th>
+              <th scope="col">Estado de envio</th>
+              <th scope="col">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" >1</th>
+             
+              <td>User1@gmail.com</td>
+              <td>
+                <li>Polo Mangalarga</li>
+                <li>Camisa</li>
+                <li>Polera</li>
+              </td>
+              <td>09/11/2022</td>
+              <td>
+                <div class="col-6">
+                  <div class="card text-center " style="background-color: green; color: white; font-size: smaller;"> Orden confirmada</div> 
+                </div>
+              </td>
+              <td>
+                <button>
+                  <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                    <button class="btn btn-primary">Actualizar</button>
+                  </a>
+                </button>
+            </tr>
+            <tr>
+                <th scope="row" >2</th>
+               
+                <td>User2@gmail.com</td>
+                <td>
+                  <li>Polo Mangalarga</li>
+                  <li>Camisa</li>
+                  <li>Polera</li>
+                </td>
+                <td>08/11/2022</td>
+                <td>
+                  <div class="col-6">
+                    <div class="card text-center " style="background-color: green; color: white; font-size: smaller;"> Orden confirmada</div> 
+                  </div>
+                </td>
+                <td>
+                  <button>
+                    <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                      <button class="btn btn-primary">Actualizar</button>
+                    </a>
+                  </button>
+              </tr>
+              <tr>
+                <th scope="row" >3</th>
+               
+                <td>User3@gmail.com</td>
+                <td>
+                  <li>Polo Mangalarga</li>
+                  <li>Camisa</li>
+                  <li>Polera</li>
+                </td>
+                <td>06/11/2022</td>
+                <td>
+                  <div class="col-6">
+                    <div class="card text-center " style="background-color: green; color: white; font-size: smaller; padding: 1%"> Pedido entregado</div> 
+                  </div>
+                </td>
+                <td>
+                  <button>
+                    <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                      <button class="btn btn-primary">Actualizar</button>
+                    </a>
+                  </button>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </div>
+  <!-- Modal Editar -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p >Actualizar envio</p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Fecha</p>
+          <input class="form-control" type="date" placeholder="Fecha">
+        </div>
+        <div class="modal-body">
+          <span>Selecciona Estado del envio</span>
+          <select class="form-control">
+            <option selected>Estado</option>
+            <option>Estado confirmado</option>
+            <option>Producto en camino</option>
+            <option>Producto entregado</option>
+          </select>
+        </div>
+    
+        <div class="modal-footer">
+          <a href="envios" class="btn btn-success d-flex justify-content-center"  style="border-radius: 1em; margin-top: 1em; ">Guardar cambios</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!-- Linea de paginación -->
+  
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="">Siguiente</a>
+      </li>
+    </ul>
+  </nav>
+  <style>
+    .titulo { font-size: 77px; text-shadow: 20px 15px 7px red;}
+  </style>

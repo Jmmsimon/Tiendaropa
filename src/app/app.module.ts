@@ -24,7 +24,9 @@ import { InicioComponent } from './admin/inicio/inicio.component';
 import { GestionproductoComponent } from './admin/gestionproducto/gestionproducto.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ReportesComponent } from './admin/reportes/reportes.component';
-import { PersonalizarComponent } from './componentes/personalizar/personalizar.component'
+import { PersonalizarComponent } from './componentes/personalizar/personalizar.component';
+import { ClientesComponent } from './admin/clientes/clientes.component';
+import { EnviosComponent } from './admin/envios/envios.component'
 
 
 @NgModule({
@@ -48,6 +50,8 @@ import { PersonalizarComponent } from './componentes/personalizar/personalizar.c
     DashboardComponent,
     ReportesComponent,
     PersonalizarComponent,
+    ClientesComponent,
+    EnviosComponent,
    
     
 
