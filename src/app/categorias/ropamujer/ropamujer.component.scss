@@ -27,7 +27,7 @@
 .btn{
     color: white;
     background-color: red;
-    margin-top: 1em;
+    margin-top: -2em;
     
 
 }
@@ -70,3 +70,20 @@ input[type = "radio"]{ display:none;}
   input[type="radio"]:checked ~ label {
     color: orange;
   }
+
+  .btn1{
+    color: white;
+    background-color: rgb(46, 223, 46);
+    padding: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .cajitadisponible{  
+    top: -80px;
+    left:0%;
+    background-color: green;
+    color: white;
+    
+}
