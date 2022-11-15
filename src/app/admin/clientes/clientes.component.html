@@ -1,1 +1,164 @@
-<p>clientes works!</p>
+<div class="container pt-12">
+    <div class="row d-flex justify-content-center pb-5" style="margin-left: 73%">
+      <button  >
+        <a href="admin" class="btn btn-secondary " style="border-radius: 1em; margin-top: 1em; margin-left: 7em;">Regresar a Inicio</a>
+      </button>
+      
+    </div>
+    <div class="row justify-content-center">
+      
+      <div class="col-11 ">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Cliente</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Teléfono</th>
+              <th scope="col">Sexo</th>
+              <th scope="col">Dirección</th>
+              <th scope="col">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" >1</th>
+             
+              <td>User 1</td>
+              <td>User1@gmail.com</td>
+              <td>987654321</td>
+              <td>Masculino </td>
+              <td>Av. del User1 856 </td>
+              <td>
+                <button  >
+                    <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                      <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
+                    </a>
+                  </button>
+                  <button  >
+                    <a  data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
+                      <i class="far fa-trash-alt  fa-lg"></i>
+                    </a>
+                  </button>
+            </tr>
+            <tr>
+                <th scope="row" >2</th>
+               
+                <td>User 2</td>
+                <td>User2@gmail.com</td>
+                <td>987654321</td>
+                <td>Masculino </td>
+                <td>Ca. del User2 856</td>
+                <td>
+                    <button  >
+                        <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                          <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
+                        </a>
+                      </button>
+                      <button  >
+                        <a  data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
+                          <i class="far fa-trash-alt  fa-lg"></i>
+                        </a>
+                      </button>
+              </tr>
+              <tr>
+                <th scope="row" >3</th>
+               
+                <td>User 3</td>
+                <td>User3@gmail.com</td>
+                <td>987654321</td>
+                <td>Masculino </td>
+                <td>Jr. del User3 856</td>
+                <td>
+                    <button  >
+                        <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                          <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
+                        </a>
+                      </button>
+                      <button  >
+                        <a  data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
+                          <i class="far fa-trash-alt  fa-lg"></i>
+                        </a>
+                      </button>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </div>
+  <!-- Modal Editar -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p >Editar Cliente</p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Editar Nombre</p>
+          <input class="form-control" type="text" placeholder="Nombre">
+        </div>
+        <div class="modal-body">
+          <span> Editar Teléfono</span>
+          <input class="form-control" type="text" placeholder="Teléfono">
+        </div>
+        <div class="modal-body">
+          <span> Editar Sexo</span>
+          <select class="form-control">
+            <option selected>Masculino</option>
+            <option>Femenino</option>
+          </select>
+        </div>
+    
+        <div class="modal-body">
+            <span> Editar Dirección</span>
+            <input class="form-control" type="text" placeholder="Dirección">
+          </div>
+        <div class="modal-footer">
+          <a href="clientes" class="btn btn-success d-flex justify-content-center"  style="border-radius: 1em; margin-top: 1em; ">Guardar cambios</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal de borrar -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ¿Seguro que desea eliminar este cliente?
+        </div>
+        <div class="modal-footer">
+          <button  class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!-- Linea de paginación -->
+  
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="">Siguiente</a>
+      </li>
+    </ul>
+  </nav>
+  <style>
+    .titulo { font-size: 77px; text-shadow: 20px 15px 7px red;}
+  </style>
