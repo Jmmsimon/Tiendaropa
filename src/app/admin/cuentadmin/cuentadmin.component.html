@@ -1,0 +1,84 @@
+
+<div class="container pt-12">
+      <button  >
+        <a href="admin" class="btn btn-secondary " style="border-radius: 1em; margin-top: 10; margin-left: 1em;">Regresar</a>
+      </button>
+    </div>
+
+<div class="container mt-12 d-flex justify-content-center">
+  
+    <div class="col-md-6">
+      <p style="font-size: 20px; margin-bottom:1em"><strong>Mi perfil</strong></p>
+      <div class="shadow p-3 mb-5 bg-white rounded">
+        <div class="row">
+          <div class="col-5">
+            
+              <img src="./assets/perfil.png" >
+          </div>
+          <div class="col-sm-5">
+            <div class="card" style="border-color: transparent;">
+              
+  
+              <ul style="font-size:small"><strong>Correo:</strong>***************</ul>
+              
+              <ul style="font-size:small;"><strong>Contraseña:</strong>  ***************</ul>
+              <ul style="font-size:small"><strong>Dirección:</strong>  Trujillo calle 2, pasaje 1</ul>
+              <ul style="font-size:small"><strong>Teléfono:</strong>  +51 123456789</ul>
+
+              <ul style="font-size:small"><strong>Sexo: </strong>  Hombre</ul>
+
+  
+            </div>
+            <button  >
+                <a href="micuenta" class="btn btn-secondary " data-toggle="modal" data-target="#exampleModalCenter" 
+                style="border-radius: 1em; margin-top: 1em; ">Editar mis datos</a>
+                
+            </button>
+
+          </div>
+          <div class="col-sm-4">
+            <div   class="card" style="border-color: transparent;">
+                <strong>Administrador </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p >Editar datos</p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Editar Nombre y Apellidos</p>
+          <input class="form-control" type="text" placeholder="Nombre y Apellidos">
+        </div>
+        <div class="modal-body">
+          <p>Editar Dirección</p>
+          <input class="form-control" type="text" placeholder="pj. jr. av.">
+        </div>
+        <div class="modal-body">
+          <span> Cambiar Contraseña</span>
+          <input class="form-control" type="text" placeholder="Contraseña">
+        </div>
+        <div class="modal-body">
+          <span>Sexo</span>
+          <select class="form-control">
+            <option selected> Masculino</option>
+            <option>Femeníno</option>
+          </select>
+        </div>
+        <div class="modal-footer">
+          <a href="cuentadmin" class="btn btn-success d-flex justify-content-center"  style="border-radius: 1em; margin-top: 1em; ">Guardar cambios</a>
+        </div>
+      </div>
+    </div>
+  </div>

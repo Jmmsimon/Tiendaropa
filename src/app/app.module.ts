@@ -26,7 +26,8 @@ import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ReportesComponent } from './admin/reportes/reportes.component';
 import { PersonalizarComponent } from './componentes/personalizar/personalizar.component';
 import { ClientesComponent } from './admin/clientes/clientes.component';
-import { EnviosComponent } from './admin/envios/envios.component'
+import { EnviosComponent } from './admin/envios/envios.component';
+import { CuentadminComponent } from './admin/cuentadmin/cuentadmin.component'
 
 
 @NgModule({
@@ -52,6 +53,7 @@ import { EnviosComponent } from './admin/envios/envios.component'
     PersonalizarComponent,
     ClientesComponent,
     EnviosComponent,
+    CuentadminComponent,
    
     
 

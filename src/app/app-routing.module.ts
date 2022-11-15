@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, createPlatform, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {LoginComponent} from "./vistas/login/login.component";
 import {TodoCardComponent} from "./vistas/todo-card/todo-card.component";
@@ -20,6 +20,7 @@ import { ReportesComponent } from './admin/reportes/reportes.component';
 import { PersonalizarComponent } from './componentes/personalizar/personalizar.component';
 import { ClientesComponent } from './admin/clientes/clientes.component';
 import { EnviosComponent } from './admin/envios/envios.component';
+import { CuentadminComponent } from './admin/cuentadmin/cuentadmin.component';
 
 const routes: Routes = [
   { path: '', component: TodoCardComponent },
@@ -42,8 +43,7 @@ const routes: Routes = [
   {path: 'personalizar', component: PersonalizarComponent},
   {path: 'clientes', component: ClientesComponent},
   {path: 'envios', component: EnviosComponent},
-
-
+  {path: 'cuentadmin', component: CuentadminComponent},
 
   // { path: '', component: TodoCardComponent, canActivate: [CanActivateTeam]},
 
