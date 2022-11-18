@@ -1,71 +1,140 @@
-
 <div class="container pt-12">
   <div class="row d-flex justify-content-center pb-5" style="margin-left: 73%">
-    <button  >
-      <a href="gestionproducto" class="btn btn-secondary " data-toggle="modal" data-target="#exampleModalCenter3" 
-      style="border-radius: 1em; margin-top: 1em; ">Agregar Productos</a>
-      
+    <button>
+      <a href="gestionproducto" class="btn btn-secondary " data-toggle="modal" data-target="#exampleModalCenter3"
+        style="border-radius: 1em; margin-top: 1em; ">Agregar Productos</a>
     </button>
-    <button  >
-      <a href="admin" class="btn btn-secondary " style="border-radius: 1em; margin-top: 1em; margin-left: 1em;">Regresar</a>
+    <button>
+      <a href="admin" class="btn btn-secondary "
+        style="border-radius: 1em; margin-top: 1em; margin-left: 1em;">Regresar</a>
     </button>
-    
   </div>
-  <div class="row justify-content-center">
+ <div class="container pa-0">
+  <div class="row">
+    <!--PEDIDOS YA REALIZADOS-->
+    <div class="col-sm-5 col-md-6">
+      <div class="row justify-content-center">
+        
+          <div class="col-sm-4">
+            <div class="card" style="border-color: transparent;">
+              <strong>YA REALIZADOS</strong>
+            </div>
+          </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">imagen</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Código</th>
+                <th scope="col">Estado del producto</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="pt-5">1</th>
     
-    <div class="col-11 ">
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">imagen</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Cantidad</th>
-            <th scope="col">Código</th>
-            <th scope="col">Estado del producto</th>
-            <th scope="col">Acciones</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row" class="pt-5">1</th>
-            
-            <td>
-              <img src="./assets/casaca.jpg" style="height: 100px;">
-            </td>
-           
-            <td>Camisa Hombre</td>
-            <td> ( 4 )</td>
-            <td>#123456789</td>
-            <td>
-              <div class="col-5">
-                <div class="card text-center " style="background-color: green; color: white;"> Disponible</div> 
-
-              </div>
-            </td>
-            <td>
-              <button  >
-                <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
-                  <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
-                </a>
-              </button>
-              <button  >
-                <a  data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
-                  <i class="far fa-trash-alt  fa-lg"></i>
-                </a>
-              </button>
-          </tr>
-        </tbody>
-      </table>
+                <td>
+                  <img src="./assets/casaca.jpg" style="height: 100px;">
+                </td>
+    
+                <td>Camisa Hombre</td>
+                <td> ( 4 )</td>
+                <td>#123456789</td>
+                <td>
+                  <div class="col-5">
+                    <div class="card text-center " style="background-color: green; color: white;"> Disponible</div>
+                  </div>
+                </td>
+                
+                <td>
+                  <button>
+                    <a data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                      <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
+                    </a>
+                  </button>
+                  <button>
+                    <a data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
+                      <i class="far fa-trash-alt  fa-lg"></i>
+                    </a>
+                  </button>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+  <!--PEDIDOS YA REALIZADOS-->
+    <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+      <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <div class="card" style="border-color: transparent;">
+              <strong>YA REALIZADOS</strong>
+            </div>
+          </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">imagen</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Código</th>
+                <th scope="col">Estado del producto</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="pt-5">1</th>
+    
+                <td>
+                  <img src="./assets/casaca.jpg" style="height: 100px;">
+                </td>
+    
+                <td>Camisa Hombre</td>
+                <td> ( 4 )</td>
+                <td>#123456789</td>
+                <td>
+                  <div class="col-5">
+                    <div class="card text-center " style="background-color: green; color: white;"> Disponible</div>
+                  </div>
+                </td>
+                
+                <td>
+                  <button>
+                    <a data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                      <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
+                    </a>
+                  </button>
+                  <button>
+                    <a data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
+                      <i class="far fa-trash-alt  fa-lg"></i>
+                    </a>
+                  </button>
+              </tr>
+            </tbody>
+          </table>
+        
+      </div>
     </div>
   </div>
 </div>
+ 
+
+
+
+
+
+
 <!-- Modal Editar -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <p >Editar Productos</p>
+        <p>Editar Productos</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -86,7 +155,7 @@
           <option>Agotado</option>
         </select>
       </div>
-  
+
       <div class="modal-body">
         <span>Selecciona Categoría</span>
         <select class="form-control">
@@ -97,14 +166,16 @@
         </select>
       </div>
       <div class="modal-footer">
-        <a href="gestionproducto" class="btn btn-success d-flex justify-content-center"  style="border-radius: 1em; margin-top: 1em; ">Guardar cambios</a>
+        <a href="gestionproducto" class="btn btn-success d-flex justify-content-center"
+          style="border-radius: 1em; margin-top: 1em; ">Guardar cambios</a>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Modal de borrar -->
-<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -116,18 +187,19 @@
         Seguro que desea eliminar este producto?
       </div>
       <div class="modal-footer">
-        <button  class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+        <button class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Modal de agregar -->
-<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <p >Agregar productos</p>
+        <p>Agregar productos</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -162,7 +234,8 @@
         </select>
       </div>
       <div class="modal-footer">
-        <a href="gestionproducto" class="btn btn-success d-flex justify-content-center"  style="border-radius: 1em; margin-top: 1em; ">Guardar cambios</a>
+        <a href="gestionproducto" class="btn btn-success d-flex justify-content-center"
+          style="border-radius: 1em; margin-top: 1em; ">Guardar cambios</a>
       </div>
     </div>
   </div>
@@ -173,7 +246,7 @@
 
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
-    
+
     <li class="page-item"><a class="page-link" href="#">1</a></li>
     <li class="page-item"><a class="page-link" href="#">2</a></li>
     <li class="page-item"><a class="page-link" href="#">3</a></li>
@@ -183,5 +256,8 @@
   </ul>
 </nav>
 <style>
-  .titulo { font-size: 77px; text-shadow: 20px 15px 7px red;}
+  .titulo {
+    font-size: 77px;
+    text-shadow: 20px 15px 7px red;
+  }
 </style>
