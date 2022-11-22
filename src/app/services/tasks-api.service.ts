@@ -14,33 +14,12 @@ export class TasksAPIService {
   }
 
   async getTasks(): Promise<Task[]> {
-    const response = await firstValueFrom(this.httpClient.get<TasksResponse>('https://api.airtable.com/v0/app4CZm8Dks0uKQRP/usuarios?maxRecords=3&view=Grid%20view', {
-      headers: {
-        Authorization: `Bearer ${environment.airtableKey}`
-      }
-    }))
-    return response.records.map((it) => {
-      return {title: it.fields.Name, done: it.fields.Status === 'Done'}
-    });
+    const response = await firstValueFrom(this.httpClient.get<Task[]>('http://localhost:8080/tasks/',))
+    return response;
   }
 
   async createTasks(task: Task): Promise<void> {
-    await firstValueFrom(this.httpClient.post<TasksResponse>('https://api.airtable.com/v0/appqD6eBxxY65Joqn/Tasks',
-      {
-        "records": [
-          {
-            "fields": {
-              "Name": task.title,
-              "Status": task.done ? "Done" : "In progress"
-            }
-          }
-        ]
-      },
-      {
-      headers: {
-        Authorization: `Bearer ${environment.airtableKey}`
-      }
-    }))
+    await firstValueFrom(this.httpClient.post<Task>('http://localhost:8080/tasks/', task))
   }
 
 
