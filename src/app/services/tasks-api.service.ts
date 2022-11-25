@@ -14,7 +14,7 @@ export class TasksAPIService {
   }
 
   async getTasks(): Promise<Task[]> {
-    const response = await firstValueFrom(this.httpClient.get<Task[]>('http://localhost:8080/tasks/',))
+    const response = await firstValueFrom(this.httpClient.get<Task[]>('',))
     return response;
   }
 

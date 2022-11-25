@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
   async login() {
     const result = await this.userApi.login(this.credentials.username, this.credentials.password);
     if(!result) {
-      this.message = "Usuario no existe o datos incorrectos"
+      this.message = "Usuario y/o contraseña incorrecto"
     } else {
       this.authenticationService.authenticate(result)
       await this.router.navigate(["tasks"])
